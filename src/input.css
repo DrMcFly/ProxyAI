@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Custom1;
+    src: url(/fonts/Avenir\ Next\ Font.ttf);
+  }
+
+div {
+  scrollbar-width: thin;
+  scrollbar-color: #141414 #141414;
+}
