@@ -14,6 +14,14 @@ a given equation.`;
 
 let i = 0;
 
+document.addEventListener("keypress", function(event) {
+    
+    if (event.key === "Enter") {
+      event.preventDefault();
+      document.getElementById("submitBtn").click();
+    }
+  }); 
+
 
 async function getResponse() {
     

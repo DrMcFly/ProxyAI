@@ -25,7 +25,7 @@
 
             <div class="w-[700px] flex fixed bottom-0 pb-4">
                 <input id="userInput" type="text" placeholder="Message Proxy..." class="block w-[100%] h-16 bg-[#141414] border-2 border-[#242424] focus:outline-none focus:border-[#444444] p-4 rounded-2xl">
-                <div class="block h-14 w-16 my-1 mx-2 bg-[#e60303] rounded-full float-right cursor-pointer" onclick="getResponse()">
+                <div class="block h-14 w-16 my-1 mx-2 bg-[#e60303] rounded-full float-right cursor-pointer" id="submitBtn" onclick="getResponse()">
                 <img src="/image.png" class="block size-10 mt-[7.5px] ml-3 align-middle">
                 </div>
             </div>
